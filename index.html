@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+</head>
+
+<body>
+    <div class="hero">
+        <nav>
+            <div class="image"> <img src="images/logo.jpg" class="logo" alt=""></div>
+            <ul>
+                <li><a href="">HOME</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">PORTFOLIO</a></li>
+                <li><a href="">SERVICES</a></li>
+                <li><a href="">HIRE ME</a></li>
+            </ul>
+            <img src="moon.png" id="icon" alt="">
+        </nav>
+        <div class="info">
+            <h1>I'm <span>Hiten Saini</span></h1>
+            <p>This is my official portfolio website to
+                showcase my all works related to <br>
+                web development and UI design.
+                <br><a href="">Download cv</a>
+            </p>
+        </div>
+        <div class="img-box">
+            <img src="pattern.jpg" class="back-img" alt="">
+            <img src="boy.jpg" class="main-img" alt="">
+        </div>
+        <div class="social-links">
+            <a href=""></a>
+        </div>
+
+        <!-- font awsome 5 icon... wesite -->
+    </div>
+    <div class="social-link">
+        <a href=""><i class="fab fa-linkedin-in"></i></a>
+        <a href=""><i class="fab fa-instagram"></i></a>
+        <a href=""><i class="fab fa-facebook"></i></a>
+    </div>
+
+<script>
+//  prompt("Please Enter Your Name");
+//  alert("THANK YOU😈😈");
+
+var icon = document.getElementById("icon");
+
+icon.onclick = function(){
+    document.body.classList.toggle("dark-theme");
+    (document.body.classList.contains("dark_theme"))
+// {icon.src = "sun.png";
+    // }else{
+        // icon.src = "moon.png";
+    // }
+}
+
+</script>
+
+</body>
+
+</html>
